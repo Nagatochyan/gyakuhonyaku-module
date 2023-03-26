@@ -7,4 +7,4 @@ def gyakuhonyaku(word:str):
   d=translator.translate(c.text, dest='de')
   e=translator.translate(d.text, dest='en')
   f=translator.translate(e.text, dest='ja')
-  print(f.text)
+  result=f.text
